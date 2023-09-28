@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* Navigation bar */
+
+#navigationBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    padding: 0 36px;
+    z-index: 100;
+
+    background-color: rgb(0, 0, 0);
+
+    font-family: 'Rubik', sans-serif;
+}
+
+#navigationBar .title{
+    color: transparent;
+    font-size: 22px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    cursor: pointer;
+}
+
+#navigationBar .subTitle{
+    color: #dfd2a6;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#navigationBar .links{
+    display: flex;
+    gap: 24px;
+}
+
+#navigationBar a{
+    color: white;
+    text-decoration: none;
+}
+
+#navigationBar a:hover{
+    color: #dfd2a6;
+    text-decoration: none;
+}

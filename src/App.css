@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500i,600,700,900,900i');
+
+App{
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#title{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color : hsl(0, 100%, 75%, .3);
+    font-family: 'Rubik', sans-serif;
+    font-size: 10vh;
+    font-weight: 700;
+
+    animation: colorCycle 20s infinite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#title:before{
+    content: attr(title);
+    position: absolute;
+    -webkit-text-stroke: 0.06em #000000;
+    z-index: -1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#title:after{
+    content: attr(title);
+    position: absolute;
+    -webkit-text-stroke: 0.09em #ffffff;
+    z-index: -2;
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes colorCycle {
+    0% {filter: hue-rotate(0deg)}
+    10% {filter: hue-rotate(36deg)}
+    20% {filter: hue-rotate(72deg)}
+    30% {filter: hue-rotate(180deg)}
+    40% {filter: hue-rotate(144deg)}
+    50% {filter: hue-rotate(180deg)}
+    60% {filter: hue-rotate(216deg)}
+    70% {filter: hue-rotate(252deg)}
+    80% {filter: hue-rotate(288deg)}
+    90% {filter: hue-rotate(384deg)}
+    100% {filter: hue-rotate(360deg)}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#canvas-container {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }
+
