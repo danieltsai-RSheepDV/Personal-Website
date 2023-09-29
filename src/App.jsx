@@ -4,6 +4,7 @@ import './content.css'
 import CanvasScene from "./models/canvasScene.jsx";
 import Navbar from "./components/navbar";
 import ImageCarousel from "./components/imageCarousel/imageGallery";
+import GameInfo from "./components/gameInfo/gameInfo.jsx";
 
 function App() {
 
@@ -15,11 +16,15 @@ function App() {
             <div className={"content-container"}>
                 <div className={"content"}>
                     <div className={"imp"}>
-                        <b>Full-stack game developer/designer.</b>
+                        <b>Game developer and designer.</b>
                     </div>
                     <div className={"centered"}>
                         <ImageCarousel/>
                     </div>
+                    <div className={"imp"}>
+                        <b>Current projects</b>
+                    </div>
+                    <GameInfo/>
                 </div>
             </div>
         </div>
