@@ -4,12 +4,9 @@ export default function Navbar(){
 
     return (
         <header id="navigationBar">
-            <div>
-                <b className="title">D. [Y] Tsai</b>
-            </div>
-            <div className="links">
-                <a className="link" href="https://londonjustice.humspace.ucla.edu/narrative"><b></b></a>
-            </div>
+            <a className="link" href=""><b>ABOUT ME</b></a>
+            <img src="public/Logo.svg" alt="MUWUN"/>
+            <a className="link" href=""><b>PROJECTS</b></a>
         </header>
     );
 }
