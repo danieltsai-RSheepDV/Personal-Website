@@ -14,7 +14,7 @@ function App() {
             <CanvasScene/>
             <div id={"Top"}>
                 {/*<div className={"gradientDown"}/>*/}
-                <div id={"title"} title="DANIEL [YUN] TSAI"/>
+                <div id={"title"}>DANIEL [ YUN ] TSAI</div>
                 <div className={"gradientUp"}/>
             </div>
             <div className={"content-container"}>
