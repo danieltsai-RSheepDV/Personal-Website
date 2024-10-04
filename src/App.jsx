@@ -12,9 +12,13 @@ function App() {
         <div>
             <Navbar/>
             <CanvasScene/>
-            <div id={"title"} title="DANIEL [YUN] TSAI"/>
+            <div id={"Top"}>
+                {/*<div className={"gradientDown"}/>*/}
+                <div id={"title"} title="DANIEL [YUN] TSAI"/>
+                <div className={"gradientUp"}/>
+            </div>
             <div className={"content-container"}>
-                <div className={"content"}>
+            <div className={"content"}>
                     <div className={"imp"}>
                         <b>Game developer and designer.</b>
                     </div>

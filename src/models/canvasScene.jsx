@@ -1,6 +1,7 @@
 
 import {Canvas, useFrame} from "@react-three/fiber";
 import React, {useState} from 'react'
+import './canvasScene.css'
 import PWScene from "./PWScene.jsx";
 import PWSkybox from "./skybox";
 import {useEffect} from "react";

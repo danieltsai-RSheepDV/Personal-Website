@@ -5,7 +5,7 @@ export default function Navbar(){
     return (
         <header id="navigationBar">
             <a className="link" href=""><b>ABOUT ME</b></a>
-            <img src="public/Logo.svg" alt="MUWUN"/>
+            <img src="/Logo.svg" alt="MUWUN"/>
             <a className="link" href=""><b>PROJECTS</b></a>
         </header>
     );
