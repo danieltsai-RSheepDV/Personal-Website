@@ -34,12 +34,12 @@ App{
     align-items: center;
     flex-grow: 1;
 
-    color : hsl(0, 100%, 75%, .3);
+    color : #ffffff;
     font-family: 'Rubik', sans-serif;
     font-size: 15vh;
     font-weight: 700;
 
-    animation: colorCycle 20s infinite;
+    /*animation: colorCycle 20s infinite;*/
     -webkit-text-stroke: 0.06em #000000;
 }
 
@@ -56,17 +56,17 @@ App{
 /*    z-index: -2;*/
 /*}*/
 
-@keyframes colorCycle {
-    0% {filter: hue-rotate(0deg)}
-    10% {filter: hue-rotate(36deg)}
-    20% {filter: hue-rotate(72deg)}
-    30% {filter: hue-rotate(180deg)}
-    40% {filter: hue-rotate(144deg)}
-    50% {filter: hue-rotate(180deg)}
-    60% {filter: hue-rotate(216deg)}
-    70% {filter: hue-rotate(252deg)}
-    80% {filter: hue-rotate(288deg)}
-    90% {filter: hue-rotate(384deg)}
-    100% {filter: hue-rotate(360deg)}
-}
+/*@keyframes colorCycle {*/
+/*    0% {filter: hue-rotate(0deg)}*/
+/*    10% {filter: hue-rotate(36deg)}*/
+/*    20% {filter: hue-rotate(72deg)}*/
+/*    30% {filter: hue-rotate(180deg)}*/
+/*    40% {filter: hue-rotate(144deg)}*/
+/*    50% {filter: hue-rotate(180deg)}*/
+/*    60% {filter: hue-rotate(216deg)}*/
+/*    70% {filter: hue-rotate(252deg)}*/
+/*    80% {filter: hue-rotate(288deg)}*/
+/*    90% {filter: hue-rotate(384deg)}*/
+/*    100% {filter: hue-rotate(360deg)}*/
+/*}*/
 
