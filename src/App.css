@@ -39,15 +39,17 @@ App{
     font-size: 15vh;
     font-weight: 700;
 
+    mix-blend-mode: difference;
+
     /*animation: colorCycle 20s infinite;*/
     -webkit-text-stroke: 0.06em #000000;
 }
 
-/*#title:before{*/
-/*    content: attr(title);*/
-/*    position: absolute;*/
-/*    z-index: -1;*/
-/*}*/
+#title:before{
+    content: attr(title);
+    position: absolute;
+    z-index: -1;
+}
 
 /*#title:after{*/
 /*    content: attr(title);*/
