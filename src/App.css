@@ -28,33 +28,28 @@ App{
 }
 
 #title{
-    /*text-align: center;*/
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-
-    color : #ffffff;
-    font-family: 'Rubik', sans-serif;
-    font-size: 15vh;
-    font-weight: 700;
-
-    mix-blend-mode: difference;
-
-    /*animation: colorCycle 20s infinite;*/
-    -webkit-text-stroke: 0.06em #000000;
 }
 
-#title:before{
-    content: attr(title);
-    position: absolute;
-    z-index: -1;
+#title img{
+    max-width: 70em;
+    width: 70%;
 }
+
+/*#title:before{*/
+/*    content: attr(title);*/
+/*    position: absolute;*/
+/*    z-index: -1;*/
+/*}*/
 
 /*#title:after{*/
 /*    content: attr(title);*/
 /*    position: absolute;*/
-/*    -webkit-text-stroke: 0.09em #ffffff;*/
+/*    -webkit-text-stroke: 0.09em white;*/
 /*    z-index: -2;*/
 /*}*/
 
